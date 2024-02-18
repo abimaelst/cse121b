@@ -1,0 +1,96 @@
+.hero-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.heroes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+#pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#pagination button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for transform and shadow */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move card up slightly */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Add shadow for depth */
+}
+
+.powerstats {
+    text-align: left;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.powerstats h4 {
+    margin: 0 0 5px 0;
+}
+
+.powerstats p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
